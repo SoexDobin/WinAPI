@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{70f2f5ec-5e9a-4d3d-a530-e91a75b7a8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{6dd2f515-0154-45dc-b216-2ea0c663b3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine\02. Core">
+      <UniqueIdentifier>{a92900d2-514d-4801-a9db-59ad07246f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01. Header">
+      <UniqueIdentifier>{266e0706-b157-414b-a2c5-a0730133ba97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Manager">
+      <UniqueIdentifier>{461fdbfe-4cb5-4be6-96c8-1b97c23d9ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object">
+      <UniqueIdentifier>{dbd0bcea-eec8-46fb-a4fe-c58ceb56f56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Scene">
+      <UniqueIdentifier>{b31b2825-ade2-416d-9210-820b2af38783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Scene\Scene_Start">
+      <UniqueIdentifier>{f178415d-f5ad-48de-9fbf-c2ebe6e638b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Scene\Scene_Tool">
+      <UniqueIdentifier>{5d7ffc32-bf30-4702-b353-9da462d179e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\Player">
+      <UniqueIdentifier>{c3137523-b203-4c2e-aa50-a618957669dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\Monster">
+      <UniqueIdentifier>{fc799ea6-1cec-40d9-a9e9-e574e118e130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\Missile">
+      <UniqueIdentifier>{13e28488-dd45-41a4-885a-ea565a02c7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Resource">
+      <UniqueIdentifier>{045a5806-217b-46d4-b242-dc93a2a7106c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Resource\Texture">
+      <UniqueIdentifier>{8cd7fc1a-1089-47c0-a147-3ccaadbf4d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Resource\Sound">
+      <UniqueIdentifier>{46ed13c1-6e17-492c-a25d-46b868358f93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCore.h">
+      <Filter>Engine\02. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Engine\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyManager.h">
+      <Filter>Engine\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="CObject.h">
+      <Filter>Engine\04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Engine\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>Engine\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Engine\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Engine\05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Start.h">
+      <Filter>Engine\05. Scene\Scene_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Engine\04. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Engine\04. Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Engine\04. Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CCurveMissile.h">
+      <Filter>Engine\04. Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CDegreeMissile.h">
+      <Filter>Engine\04. Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>Engine\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Engine\06. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Engine\06. Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathManager.h">
+      <Filter>Engine\03. Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Engine\02. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyManager.cpp">
+      <Filter>Engine\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CObject.cpp">
+      <Filter>Engine\04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>Engine\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Engine\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Engine\05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Start.cpp">
+      <Filter>Engine\05. Scene\Scene_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Engine\04. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Engine\04. Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Engine\04. Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CCurveMissile.cpp">
+      <Filter>Engine\04. Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CDegreeMissile.cpp">
+      <Filter>Engine\04. Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>Engine\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Engine\06. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Engine\06. Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathManager.cpp">
+      <Filter>Engine\03. Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
