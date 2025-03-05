@@ -6,9 +6,6 @@ class CTexture :
 	public CRes
 {
 public:
-	CTexture();
-	virtual ~CTexture();
-
 	UINT GetWidth() { return m_bitInfo.bmWidth; };
 	UINT GetHeight() { return m_bitInfo.bmHeight; };
 
@@ -16,6 +13,11 @@ public:
 
 	void Load(const wstring& _strFilePath);
 
+private:
+	CTexture();
+	virtual ~CTexture();
+
+	friend class CResourceManager;
 private:
 	HDC m_dc;
 	HBITMAP m_hBitmap;

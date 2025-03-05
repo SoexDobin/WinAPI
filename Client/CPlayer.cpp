@@ -5,6 +5,7 @@
 #include "CTimeManager.h"
 #include "CSceneManager.h"
 #include "CPathManager.h"
+#include "CResourceManager.h"
 
 #include "CScene.h"
 
@@ -18,17 +19,12 @@ CPlayer::CPlayer()
 	:m_pTex(nullptr)
 {
 	//Texture 로딩하기
-	m_pTex = new CTexture;
-
-	wstring strFilePath = CPathManager::GetInstance()->GetContentPath();
-	strFilePath += L"texture\\Player.bmp";
-	m_pTex->Load(strFilePath);
+	m_pTex = CResourceManager::GetInstance()->LoadTexture(L"Player", L"texture\\Player.bmp");
 }
 
 CPlayer::~CPlayer()
 {
-	if(m_pTex != nullptr)
-		delete m_pTex;
+
 }
 
 void CPlayer::Update()

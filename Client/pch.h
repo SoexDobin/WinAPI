@@ -9,6 +9,9 @@ using std::wstring;
 
 #include <vector>
 using std::vector;
+#include <map>
+using std::map;
+using std::make_pair;
 
 #include "struct.h"
 #include "assert.h"

@@ -1,6 +1,9 @@
 #pragma once
 #include "pch.h"
 
+class CTexture;
+class CSound;
+
 class CRes
 {
 public:
