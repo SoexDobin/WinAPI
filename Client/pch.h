@@ -15,3 +15,5 @@ using std::vector;
 
 #include "cmath"
 #include <math.h>
+
+#pragma comment(lib, "Msimg32.lib") // TransparentBlt
