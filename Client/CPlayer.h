@@ -1,5 +1,6 @@
 #pragma once
 #include "CObject.h"
+#include "CTexture.h"
 
 class CPlayer :
     public CObject
@@ -13,5 +14,8 @@ public:
 
 private:
     void CreateMissile();
+
+private:
+    CTexture* m_pTex;
 };
 

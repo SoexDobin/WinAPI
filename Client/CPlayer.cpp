@@ -4,18 +4,27 @@
 #include "CKeyManager.h"
 #include "CTimeManager.h"
 #include "CSceneManager.h"
+#include "CPathManager.h"
+#include "CResourceManager.h"
+
 #include "CScene.h"
+
+#include "CTexture.h"
 
 #include "CMissile.h"
 #include "CCurveMissile.h"
 #include "CDegreeMissile.h"
 
 CPlayer::CPlayer()
+	:m_pTex(nullptr)
 {
+	//Texture 로딩하기
+	m_pTex = CResourceManager::GetInstance()->LoadTexture(L"Player", L"texture\\Player.bmp");
 }
 
 CPlayer::~CPlayer()
 {
+
 }
 
 void CPlayer::Update()
@@ -50,15 +59,25 @@ void CPlayer::Update()
 
 void CPlayer::Render(HDC _dc)
 {
+	int iWidth = static_cast<int>(m_pTex->GetWidth());
+	int iHeight = static_cast<int>(m_pTex->GetHeight());
+	
 	Vec2 vPos = GetPos();
-	Vec2 vScale = GetScale();
 
-	Rectangle(_dc,
-		static_cast<int>(vPos.x - vScale.x / 2.f),
-		static_cast<int>(vPos.y - vScale.y / 2.f),
-		static_cast<int>(vPos.x + vScale.x / 2.f),
-		static_cast<int>(vPos.y + vScale.y / 2.f)
-	);
+	/*BitBlt(_dc
+		, vPos.x - static_cast<float>(iWidth / 2)
+		, vPos.y - static_cast<float>(iHeight / 2)
+		, iWidth, iHeight
+		, m_pTex->GetDC()
+		, 0, 0, SRCCOPY);*/
+
+	TransparentBlt(_dc
+		, vPos.x - static_cast<float>(iWidth / 2)
+		, vPos.y - static_cast<float>(iHeight / 2)
+		, iWidth, iHeight
+		, m_pTex->GetDC()
+		, 0, 0, iWidth, iHeight
+		, RGB(255, 0 , 255));
 }
 
 void CPlayer::CreateMissile()

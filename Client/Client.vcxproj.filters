@@ -119,6 +119,9 @@
     <ClInclude Include="CPathManager.h">
       <Filter>Engine\03. Manager</Filter>
     </ClInclude>
+    <ClInclude Include="CResourceManager.h">
+      <Filter>Engine\03. Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -168,6 +171,9 @@
       <Filter>Engine\06. Resource\Sound</Filter>
     </ClCompile>
     <ClCompile Include="CPathManager.cpp">
+      <Filter>Engine\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceManager.cpp">
       <Filter>Engine\03. Manager</Filter>
     </ClCompile>
   </ItemGroup>
