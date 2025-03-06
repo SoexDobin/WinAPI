@@ -13,6 +13,7 @@ public:
 	virtual void Exit() = 0;
 
 	void Update();
+	void LateUpdate();
 	void Render(HDC _dc);
 
 	void SetName(const wstring& _strName) { m_strName = _strName; }

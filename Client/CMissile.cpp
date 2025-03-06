@@ -6,6 +6,7 @@
 CMissile::CMissile()
 	: m_fDir(1.f)
 {
+	CreateCollider();
 }
 
 CMissile::~CMissile()

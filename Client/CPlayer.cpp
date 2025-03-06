@@ -20,6 +20,8 @@ CPlayer::CPlayer()
 {
 	//Texture 로딩하기
 	m_pTex = CResourceManager::GetInstance()->LoadTexture(L"Player", L"texture\\Player.bmp");
+
+	CreateCollider();
 }
 
 CPlayer::~CPlayer()

@@ -27,7 +27,17 @@ void CScene::Update()
 			m_arrObj[i][j]->Update();
 		}
 	}
-	
+}
+
+void CScene::LateUpdate()
+{
+	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i)
+	{
+		for (UINT j = 0; j < m_arrObj[i].size(); ++j)
+		{
+			m_arrObj[i][j]->LateUpdate();
+		}
+	}
 }
 
 void CScene::Render(HDC _dc)
