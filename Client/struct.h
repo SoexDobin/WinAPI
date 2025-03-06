@@ -11,12 +11,33 @@ public:
 	Vec2& operator = (POINT _pt)
 	{
 		x = static_cast<float>(_pt.x);
-		y = static_cast<float > (_pt.y);
+		y = static_cast<float>(_pt.y);
+	};
+
+	Vec2 operator + (Vec2 _pt)
+	{
+		return Vec2(x + _pt.x, y + _pt.y);
+	};
+
+	Vec2 operator - (Vec2 _pt)
+	{
+		return Vec2(x - _pt.x, y - _pt.y);
+	};
+
+	Vec2 operator * (Vec2 _pt)
+	{
+		return Vec2(x * _pt.x, y * _pt.y);
+	};
+
+	Vec2 operator / (Vec2 _pt)
+	{
+		assert(!(0.f == _pt.x || 0.f == _pt.y));
+		return Vec2(x / _pt.x, y / _pt.y);
 	};
 
 	float Length()
 	{
-		return sqrt(x * x + y * y);
+		return static_cast<double>(sqrt(x * x + y * y));
 	};
 
 	Vec2& Normalize()

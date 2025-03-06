@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "CPlayer.h"
+#include "CCollider.h"
 
 #include "CKeyManager.h"
 #include "CTimeManager.h"
@@ -22,6 +23,7 @@ CPlayer::CPlayer()
 	m_pTex = CResourceManager::GetInstance()->LoadTexture(L"Player", L"texture\\Player.bmp");
 
 	CreateCollider();
+	GetCollider()->SetScale(Vec2(100.f, 100.f));
 }
 
 CPlayer::~CPlayer()
@@ -80,6 +82,8 @@ void CPlayer::Render(HDC _dc)
 		, m_pTex->GetDC()
 		, 0, 0, iWidth, iHeight
 		, RGB(255, 0 , 255));
+
+	ComponentRender(_dc);
 }
 
 void CPlayer::CreateMissile()

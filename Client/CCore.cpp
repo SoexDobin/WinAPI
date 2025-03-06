@@ -8,6 +8,7 @@
 #include "CObject.h"
 
 CCore::CCore() : m_hWnd(0), m_ptResolution({}), m_hdc(0), m_hBit(0), m_memDC(0)
+	, m_arrBrush{}, m_arrPen{}
 {
 
 }
@@ -17,6 +18,11 @@ CCore::~CCore()
 	ReleaseDC(m_hWnd, m_hdc);
 	DeleteObject(m_memDC);
 	DeleteObject(m_hBit);
+
+	for (int i = 0; i < (UINT)PEN_TYPE::END; ++i)
+	{
+		DeleteObject(m_arrPen[i]);
+	}
 }
 
 int CCore::Init(HWND hWnd, POINT ptResolution)
@@ -37,6 +43,9 @@ int CCore::Init(HWND hWnd, POINT ptResolution)
 	HBITMAP holdBit = (HBITMAP)SelectObject(m_memDC, m_hBit);
 	DeleteObject(holdBit);
 
+	// 자주 사용할 팬 및 브러쉬 생성
+	CreateBrushPen();
+
 	// 매니저 초기화
 	CPathManager::GetInstance()->Init();
 	CTimeManager::GetInstance()->Init();
@@ -53,8 +62,6 @@ void CCore::Progress()
 	CKeyManager::GetInstance()->Update();
 	CSceneManager::GetInstance()->Update();
 
-	Update();
-
 	// Rendering
 	// 화면 Clear
 	Rectangle(m_memDC, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
@@ -66,10 +73,11 @@ void CCore::Progress()
 	//CTimeManager::GetInstance()->Render();
 }
 
-void CCore::Update()
+void CCore::CreateBrushPen()
 {
-}
+	m_arrBrush[(UINT)BRUSH_TYPE::HOLLOW] = (HBRUSH)GetStockObject(HOLLOW_BRUSH);
 
-void CCore::Render()
-{
+	m_arrPen[(UINT)PEN_TYPE::RED] = CreatePen(PS_SOLID, 1, RGB(255, 0, 0));
+	m_arrPen[(UINT)PEN_TYPE::GREEN] = CreatePen(PS_SOLID, 1, RGB(0, 255, 0));
+	m_arrPen[(UINT)PEN_TYPE::BLUE] = CreatePen(PS_SOLID, 1, RGB(0, 0, 255));
 }

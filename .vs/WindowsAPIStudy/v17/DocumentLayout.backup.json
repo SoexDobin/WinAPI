@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSelectGDI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CSelectGDI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSelectGDI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CSelectGDI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,28 +67,12 @@
       "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CMissile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CCF8061-69AA-45BB-9992-7F67E147EEA5}|Client\\Client.vcxproj|C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -70,30 +86,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "struct.h",
+              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\struct.h",
+              "RelativeDocumentMoniker": "Client\\struct.h",
+              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\struct.h",
+              "RelativeToolTip": "Client\\struct.h",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-06T12:18:51.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CSelectGDI.h",
+              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSelectGDI.h",
+              "RelativeDocumentMoniker": "Client\\CSelectGDI.h",
+              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSelectGDI.h",
+              "RelativeToolTip": "Client\\CSelectGDI.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-06T12:08:56.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CSelectGDI.cpp",
+              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSelectGDI.cpp",
+              "RelativeDocumentMoniker": "Client\\CSelectGDI.cpp",
+              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSelectGDI.cpp",
+              "RelativeToolTip": "Client\\CSelectGDI.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T12:04:10.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "define.h",
+              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\define.h",
+              "RelativeDocumentMoniker": "Client\\define.h",
+              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\define.h",
+              "RelativeToolTip": "Client\\define.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvzkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-06T11:44:13.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CObject.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.cpp",
               "RelativeDocumentMoniker": "Client\\CObject.cpp",
               "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.cpp",
               "RelativeToolTip": "Client\\CObject.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwDAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-06T10:41:08.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CCollider.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.cpp",
               "RelativeDocumentMoniker": "Client\\CCollider.cpp",
               "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.cpp",
               "RelativeToolTip": "Client\\CCollider.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-06T10:02:19.054Z",
               "EditorCaption": ""
@@ -101,6 +169,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "CResourceManager.cpp",
+              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.cpp",
+              "RelativeDocumentMoniker": "Client\\CResourceManager.cpp",
+              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.cpp",
+              "RelativeToolTip": "Client\\CResourceManager.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T09:05:26.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CPlayer.cpp",
+              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CPlayer.cpp",
+              "RelativeDocumentMoniker": "Client\\CPlayer.cpp",
+              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CPlayer.cpp",
+              "RelativeToolTip": "Client\\CPlayer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-21T05:34:40.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Client.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\Client.cpp",
               "RelativeDocumentMoniker": "Client\\Client.cpp",
@@ -108,61 +202,37 @@
               "RelativeToolTip": "Client\\Client.cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-05T09:25:20.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T09:25:20.87Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CResourceManager.cpp",
-              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.cpp",
-              "RelativeDocumentMoniker": "Client\\CResourceManager.cpp",
-              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.cpp",
-              "RelativeToolTip": "Client\\CResourceManager.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-05T09:05:26.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "CCore.h",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.h",
               "RelativeDocumentMoniker": "Client\\CCore.h",
               "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.h",
               "RelativeToolTip": "Client\\CCore.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-05T07:58:32.453Z"
+              "WhenOpened": "2025-03-05T07:58:32.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "CCore.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.cpp",
               "RelativeDocumentMoniker": "Client\\CCore.cpp",
               "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCore.cpp",
               "RelativeToolTip": "Client\\CCore.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T09:44:34.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CPlayer.cpp",
-              "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CPlayer.cpp",
-              "RelativeDocumentMoniker": "Client\\CPlayer.cpp",
-              "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CPlayer.cpp",
-              "RelativeToolTip": "Client\\CPlayer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-21T05:34:40.735Z",
+              "WhenOpened": "2025-01-15T09:44:34.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\pch.h",
               "RelativeDocumentMoniker": "Client\\pch.h",
@@ -176,11 +246,11 @@
         },
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "CScene.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CScene.cpp",
               "RelativeDocumentMoniker": "Client\\CScene.cpp",
@@ -188,12 +258,11 @@
               "RelativeToolTip": "Client\\CScene.cpp",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-06T10:53:34.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T10:53:34.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "CSceneManager.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CSceneManager.cpp",
               "RelativeDocumentMoniker": "Client\\CSceneManager.cpp",
@@ -201,12 +270,11 @@
               "RelativeToolTip": "Client\\CSceneManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-06T10:52:45.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T10:52:45.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "CMissile.cpp",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CMissile.cpp",
               "RelativeDocumentMoniker": "Client\\CMissile.cpp",
@@ -214,38 +282,37 @@
               "RelativeToolTip": "Client\\CMissile.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-06T10:48:02.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T10:48:02.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CObject.h",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.h",
               "RelativeDocumentMoniker": "Client\\CObject.h",
               "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CObject.h",
               "RelativeToolTip": "Client\\CObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-06T10:41:10.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "CCollider.h",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.h",
               "RelativeDocumentMoniker": "Client\\CCollider.h",
               "ToolTip": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CCollider.h",
               "RelativeToolTip": "Client\\CCollider.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-06T10:02:15.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "CScene.h",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CScene.h",
               "RelativeDocumentMoniker": "Client\\CScene.h",
@@ -253,12 +320,11 @@
               "RelativeToolTip": "Client\\CScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-19T06:43:43.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T06:43:43.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CResourceManager.h",
               "DocumentMoniker": "C:\\Users\\a9018\\Desktop\\WindowsAPIStudy\\Client\\CResourceManager.h",
               "RelativeDocumentMoniker": "Client\\CResourceManager.h",

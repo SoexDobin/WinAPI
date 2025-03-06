@@ -30,6 +30,26 @@ void CObject::CreateCollider()
 
 void CObject::LateUpdate()
 {
+	if (m_pCollider)
+		m_pCollider->LateUpdate();
+}
+
+void CObject::Render(HDC _dc)
+{
+	Rectangle(_dc
+		, static_cast<int>(m_vPos.x - m_vPos.x / 2.f)
+		, static_cast<int>(m_vPos.y - m_vPos.y / 2.f)
+		, static_cast<int>(m_vPos.x + m_vScale.x / 2.f)
+		, static_cast<int>(m_vPos.y + m_vScale.y / 2.f)
+	);
+
+	ComponentRender(_dc);
+}
+
+void CObject::ComponentRender(HDC _dc)
+{
 	if (m_pCollider != nullptr)
-		m_pCollider->m_pOwner->LateUpdate();
+	{
+		m_pCollider->Render(_dc);
+	}
 }

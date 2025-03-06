@@ -1,52 +1,5 @@
 ﻿  CCollider.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(40,34): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'CCollider.cpp'을(를) 컴파일하는 중)
   
-  CCore.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
-  
-  CCurveMissile.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CCurveMissile.cpp'을(를) 컴파일하는 중)
-  
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CCurveMissile.cpp(25,19): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CCurveMissile.cpp(27,35): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CMissile.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CMissile.cpp'을(를) 컴파일하는 중)
-  
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CMissile.cpp(20,27): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CMonster.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CMonster.cpp'을(를) 컴파일하는 중)
-  
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CMonster.cpp(21,33): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CObject.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
-  
-  CPlayer.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CPlayer.cpp'을(를) 컴파일하는 중)
-  
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CPlayer.cpp(38,19): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CPlayer.cpp(42,19): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CPlayer.cpp(46,19): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CPlayer.cpp(50,19): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CPlayer.cpp(78,12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\CPlayer.cpp(77,12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CResourceManager.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CResourceManager.cpp'을(를) 컴파일하는 중)
-  
-  CScene.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
-  
-  CSceneManager.cpp
-C:\Users\a9018\Desktop\WindowsAPIStudy\Client\struct.h(19,14): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'CSceneManager.cpp'을(를) 컴파일하는 중)
-  
-  LINK : C:\Users\a9018\Desktop\WindowsAPIStudy\Output\bin_debug\Client.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
   Client.vcxproj -> C:\Users\a9018\Desktop\WindowsAPIStudy\Output\bin_debug\Client.exe
